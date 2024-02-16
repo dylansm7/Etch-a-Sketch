@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch a Sketch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Etch a Sketch</h1>
+  <div class="main-container">
+    <div class="buttons-div">
+      
+      <h3>Enter a grid size</h3>
+      <input type="number" class="user-value" placeholder="  Enter a number between 2 and 100" min="2" max="100">
+      <input type="submit" class="btn-create-grid" value="Submit / Clear Grid">
+  
+
+    </div>
+    <div class="sketch-div">
+      <div class="container"></div>
+    </div>
+    <div class="colors-div">
+      <h3>Color Selection</h3>
+      <div class="colors-check-boxes">
+        <div class="black-color">
+          <input type="checkbox" id="black-colors">
+          <label for="color-selection">Black</label>
+        </div>
+        <div class="colors-color">
+          <input type="checkbox" id="colors">
+          <label for="color-selection">Colors</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+<script src="index.js"></script>
+</html>
+
+
+
